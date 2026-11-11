@@ -1,0 +1,21 @@
+h1{
+    color:darkgrey;
+    background-color: red;
+}
+
+#middle{
+    background-color: aqua;
+}
+p{
+    color:yellow;
+    background-color: black;
+}
+
+
+.text{
+    background-color: lightgray;
+}
+
+span{
+    background-color: chartreuse;
+}

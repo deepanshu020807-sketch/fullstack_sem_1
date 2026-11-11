@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    padding: 24px;
+    background-color: black;
+
+}
+
+div{
+    width:2500px;
+    background-color: blueviolet;
+    display: flex;
+}
+
+img {
+    display: block;
+}

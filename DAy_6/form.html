@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Form</title>
+</head>
+<body>
+    <form action="register" method="get">
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter your name" id="name" name="NAME" required >
+        <br>
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter your email" id="email" name="EMAIL" value="example@gmail.com" required maxlength="100">
+        <br>
+        <label for="age">Age</label>
+        <input type="number" placeholder="Enter your age" id="age" name="AGE" min="1" max="50" >
+        <br>
+        <label for="">DOB</label>
+        <input type="date" name="dob" id="DOB">
+        <br>
+        <label for="COLOR">color</label>
+        <input type="color" id="color" name="COLOR">
+        <br>
+        <button type="submit">Submit</button>
+        <input type="reset">
+    </form>
+</body>
+</html>
